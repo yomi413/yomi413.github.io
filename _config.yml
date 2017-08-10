@@ -1,0 +1,21 @@
+# Site settings
+title: New Beginnings and Life Perspectives
+header-img: img/home-bg.png
+email: yjescano@gmail.com
+copyright_name: yomi413
+description: > # this means to ignore newlines until "baseurl:"
+  When Opportunity Knocks...
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  yomi413
+learn_profile: yomi413
+email_username: yjescano@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
