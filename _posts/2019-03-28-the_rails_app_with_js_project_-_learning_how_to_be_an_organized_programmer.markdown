@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Rails App with JS Project - Learning How to Be An Organized Programmer"
-date:       2019-03-28 18:40:23 +0000
+date:       2019-03-28 14:40:24 -0400
 permalink:  the_rails_app_with_js_project_-_learning_how_to_be_an_organized_programmer
 ---
 
@@ -9,11 +9,12 @@ permalink:  the_rails_app_with_js_project_-_learning_how_to_be_an_organized_prog
 
 In this final Rails App with JavaScript project, having a fully working Rails application gave me a lot of confidence that the next project wouldn’t be so bad.  Before I started this final project, I had somehow convinced myself that it would be easier than all other projects.  For starters, I wasn’t starting something from scratch.  I had what I thought to be a really good foundation in my Rails application.  It is not a perfect project, but good enough that implementing some JavaScript functionality should not break my project... or my brain for that matter.  Despite my inflated sense confidence, I struggled with organization and setting myself up for success. 
 
-Once I started to look at my final Rails project more closely, I had no idea where to begin.  ***Which file should I add first?  What should I delete?  Should I look at the Gemfile?***  I would love to tell you that like a scene from *The Matrix* I was able to download into my brain the perfect code to a perfect solution.  Well, not quite.  I started touching too many files at the same time - messed with the controllers, created serializers, created my `.js` file, messed with the `html` files before knowing what to change in them.  Nothing was working, and my frustration and anxiety were through the roof. There was no rhyme, reason, or cohesion to my thought process.  I just wanted something to work!
+Once I started to look at my final Rails project more closely, I had no idea where to begin.  ***Which file should I add first?  What should I delete?  Should I look at the Gemfile?***  I would love to tell you that like a scene from *The Matrix* I was able to download into my brain the perfect code to a perfect solution.  Well, not quite.  I started touching too many files at the same time - messed with the controllers, created serializers, created my `js` file, messed with the `html` files before knowing what to change in them.  Nothing was working, and my frustration and anxiety were through the roof. There was no rhyme, reason, or cohesion to my thought process.  I just wanted something to work!
 
 Eventually, I realized how messy I was being.  I needed to take a step back and give myself more structure.  I decided to stop and start again with a more organized approach.  I wanted to have a better understanding of what to do rather than just creating or deleting files.  Below is how I rethought my process.  This really helped me put things in perspective.   
 
 1. **Organize my thoughts** -  I read the project instructions and requirements over and over.  Despite having read them countless times, I couldn’t figure out where to begin.  While the instructions actually don’t tell us where to begin, they do give an idea of how to set up a blueprint for next steps.  Once I started to write things down I realized that I should focus on the following routes in my project:
+
  ```
  cars  GET  /cars(.:format)  cars#index
  
@@ -25,6 +26,7 @@ Eventually, I realized how messy I was being.  I needed to take a step back and 
  
  user  GET  /users/:id(.:format)  users#show
  ```
+ 
  These routes relate directly to each of the requirements in the project instructions.  Now that I had this on paper I was able to focus my attention on these routes and their respective entries in the controllers and `html` files.
 
 2. **Updating the Gemfile** - When I completed my Rails application it was working perfectly.  However, I had recently received a couple of notifications that a handful of my dependencies were presenting a high severity security vulnerability.  I had no idea what that meant.  After taking some time to look through my `Gemfile` and doing some research on the quickest and cleanest way to fix the problem, I found that all I needed to do was add `gem ‘sqlite3’, ‘~> 1.3.6’` and then run `bundle update`.  Luckily, this was an easy fix.  Now that the my Rails application was fixed I could move on to recreating it for my new Rails App with JavaScript Frontend project.
