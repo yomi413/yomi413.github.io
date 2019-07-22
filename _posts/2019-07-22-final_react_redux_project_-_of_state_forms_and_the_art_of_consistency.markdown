@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Final React/Redux Project - Of `state`, `forms` and the Art of Consistency"
-date:       2019-07-22 05:44:34 +0000
+date:       2019-07-22 01:44:34 -0400
 permalink:  final_react_redux_project_-_of_state_forms_and_the_art_of_consistency
 ---
 
