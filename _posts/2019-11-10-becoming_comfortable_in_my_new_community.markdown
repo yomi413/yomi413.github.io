@@ -1,0 +1,26 @@
+---
+layout: post
+title:      "Becoming Comfortable in My New Community"
+date:       2019-11-11 03:57:02 +0000
+permalink:  becoming_comfortable_in_my_new_community
+---
+
+
+Since graduating from Flatiron School’s online software engineering program in August, I’ve been busier than I thought I would be.  I sometimes dread the busy seasons, but this has all been good. Initially it was overwhelming to think of my next move and what I wanted to do with my “downtime”.  Honestly, I have very little downtime as it is, what with running a household and making sure that my kids are always taken care of.  However, being done with lessons and course required projects allowed me to really explore coding and all aspects of technology for myself and on my own terms. 
+
+Here’s the thing - in my head I hadn't entirely integrated into the tech community.  I’ve always felt like an outsider looking in, like a wallflower watching others enjoying their successes.  In fact, I still don’t feel like I am a coder...at least not fully.  But I was and still am determined to change that.  The only way to do it is by immersing myself in all things tech. 
+
+It’s like when I need to brush up on my Spanish skills - I sing along to the likes of Marc Anthony, Juan Luis Guerra and José José; I call my dad to have a good old fashioned conversation about culture and politics entirely in Spanish; I call upon my family and community to take part in foods and customs of the culture.  With coding, and tech in general, I realize that I had not done any of that.  If I want to get to know and understand my new community it was incumbent upon me to immerse myself in all the different aspects of tech. 
+
+In the past couple of months I have made it a point to be seen and to explore the wide support network available.  It wasn't always comfortable, but it was worth it in order to develop a greater appreciation for the community of amazing people and groups offering support.  Here are some of the things I have done to help me immerse myself in the tech:
+
+1. **Online Community** - It is now easier than ever to find communities of like-minded individuals with similar interests and similar goals.  Going on Facebook, Twitter and Instagram you can find groups or follow individuals that you can learn from.  You may surprise yourself and find that you can teach someone something in return.  Some of the groups I'm part of on Facebook and/or Twitter are Codecademy Community, Learn to Code with Me Community (formerly NCW) and CodeNewbie.  Aside from groups and individuals on social media, joining paid organizations can also be helpful.  I joined [Moms Can & Co.](https://www.momscan.co/) earlier in the year, but have recently become more active in their community of moms like me.  It was through them that I decided to participate in Hacktoberfest in the month of October (more about that later) and joined the Moms Can Code School to help me build my personal portfolio.
+
+2.  **Live Meetups and Groups** - Despite living in a digital world and despite creating wonderful connections through the greatness of the internet, live meetups are still the best way to network and get to know people.  Through the [Meetup website](https://www.meetup.com/) (or mobile app) you can find any and all kinds of groups for your level of comfort and ability.  These can be large or small, formal or informal, and you can make sure that you’re going to expose yourself to new and exciting opportunities through the people you meet.
+
+3.  **Hackathons** - I previously mentioned [Hacktoberfest](https://hacktoberfest.digitalocean.com/), which is an entirely digital hackathon-type event that takes place during the month of October.  The goal is to get people at all levels of technology to participate in open source projects on GitHub.  This year I participated in my first Hacktoberfest and I want to make it a yearly habit.  This one decision helped boost my confidence and helped me become better at navigating GitHub.  In addition, I also participated in my first live hackathon through [TechTogether](https://techtogether.io/), a non-profit organization that focuses on exposing gender-marginalized students to technology.  I was able to immerse myself in code and all things tech for 3 days.  At 39 years old, I think I was probably one of the oldest people there.  With most of the students in attendance being CS grads and majors, I was able to see how other people, particularly other women, speak and think about all things tech.     
+
+4.   **Podcasts** - This is a more passive way of participating and immersing yourself in all things code and technology, but can also be very useful.  Through this medium you can listen to people dissect their own experiences in technology, as well as listening to guests working within the industry.  Check out Learn to Code with Me with Laurence Bradford and Syntax. Web Development with Wes Bos and Scott Tolinski.  
+
+I recognize that a lot of these things can be overwhelming, especially as a beginner.  The truth is that there is no real blueprint for how to start your path in becoming comfortable within tech.  There is no right way to start anything.  Just start with what comes most naturally and everything will take off from there.  
+
