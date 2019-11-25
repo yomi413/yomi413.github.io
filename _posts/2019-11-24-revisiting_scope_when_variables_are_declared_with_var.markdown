@@ -41,7 +41,7 @@ function myName() {
  var myLastName = "Escano";
 }
  
-console.log(myFirstName, myLastName); // Uncaught ReferenceError: myFirstName is not defined```
+console.log(myFirstName, myLastName);    // Uncaught ReferenceError: myFirstName is not defined```
 
 
 
@@ -57,7 +57,7 @@ function myName() {
  console.log(name);
 }
  
-myName(); // prints Daniel to the console
+myName();    // prints Daniel to the console
 ```
 
 
