@@ -45,6 +45,7 @@ console.log(myFirstName, myLastName);    // Uncaught ReferenceError: myFirstName
 
 
 
+
 ```
 **// Block Scope**
 
@@ -59,6 +60,7 @@ function myName() {
  
 myName();    // prints Daniel to the console
 ```
+
 
 
 As you can see in the example directly above, a variable declared within a loop, switch statement or conditional statement belongs to the function where it is declared.  Why is this important?  
