@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Revisiting Scope When Variables Are Declared With `var`"
-date:       2019-11-25 04:55:57 +0000
+title:      "Revisiting Scope - When Variables Are Declared With `var`"
+date:       2019-11-24 23:55:58 -0500
 permalink:  revisiting_scope_when_variables_are_declared_with_var
 ---
 
