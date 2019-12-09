@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Building My First HTML Email Newsletter"
-date:       2019-12-09 04:32:01 +0000
+date:       2019-12-08 23:32:02 -0500
 permalink:  building_my_first_html_email_newsletter
 ---
 
@@ -33,5 +33,5 @@ Looking at another part of our email newsletter you can see the dominant table l
 
 ## Conclusion
 
-Email newsletters may seem to be stuck in a different time.  In some ways they are what with using only HTML and CSS to build them.  But they work.  They fulfill their sole function of keeping us in the know about things.  Building my first email newsletter was fun.  I really had no idea that there are developers out there solely dedicated to building something we really don’t always pay much attention to.  We all see them.  Now let’s admire them for a little longer and appreciate what it takes to put them together. 
+For all the talk about writing and maintaining DRY code and separating concerns by have separate files for separate pieces of code, it's worth noting that there are always exceptions to the rule.  Email newsletters seem to be that exception.  The development of email newsletters may seem to be stuck in a different time.  In some ways they are, what with using only HTML and CSS to build them.  But they work.  They fulfill their sole function of keeping us in the know about anything and everything.  Building my first email newsletter was fun.  I really had no idea that there are developers out there solely dedicated to building something we really don’t always pay much attention to.  We all see them.  Now let’s admire them for a little longer and appreciate what it takes to put them together. 
 
