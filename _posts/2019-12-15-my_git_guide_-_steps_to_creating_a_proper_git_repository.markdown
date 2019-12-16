@@ -1,17 +1,18 @@
 ---
 layout: post
 title:      "My Git Guide - Steps to Creating A Proper Git Repository"
-date:       2019-12-16 04:38:56 +0000
+date:       2019-12-15 23:38:57 -0500
 permalink:  my_git_guide_-_steps_to_creating_a_proper_git_repository
 ---
 
 
 I've been using Git commands for the better part of 2 years now.  I think I have a pretty good understanding of how it works.  However, every time I have to start a new project, I have to look up the steps again and again.  This post will serve as my own (and hopefully someone else's) guide to using Git from the terminal.  
-# Git vs. GitHub 
+
+****Git vs. GitHub 
 
 The first thing we have to understand is the difference between Git and GitHub.  Simply put, Git is the tool that allows us to provide version control to our projects, while GitHub is the hosting service where our Git repositories live on the web.  You don’t need a GitHub account to use Git.  GitHub allows us to store our code and enables easy access for others to use.
 
-# `git init`
+**** `git init`
 
 Before initializing a Git repository or attempting to use any Git commands make sure you have Git installed by following [these instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).  Go ahead... we'll wait.... 
 
@@ -36,7 +37,7 @@ In order to initialize this repository in Git, use the `git init` command in the
 You have successfully initialized your Git repository locally!  Your Git repository is ready to proceed. 
 
 
-# `git add` and `git commit`
+**** `git add` and `git commit`
 
 You can create more files in this folder by using the `touch <filename>` command.
 
@@ -64,7 +65,7 @@ We have successfully committed the README file!  Now, if we run the `git status`
 
 Since this is all done locally, only you will have access to this repository and its files.  What if we wanted to make this code public?  What if we wanted to open it up to others for collaboration and contribution?  Let's find out how to do that in the next steps. 
 
-# `git remote` and `git push`
+**** `git remote` and `git push`
 
 In order to have this repository available to other people, we will now connect it to our GitHub account.  Remember: GitHub is the online service we will use to store our repository and make it accessible to others.
 
@@ -84,6 +85,6 @@ It worked!  We have a working local repository that is properly connected to our
 
 ![](https://i.imgur.com/JM1jLq3.jpg)
 
-# Conclusion
+**** Conclusion
 
 There are dozens of other Git commands that can be used in the terminal to help inform us of our code at any given time.   You may only need to use a handful of them on any given project.  As long as you understand the basic commands, these will help maintain your files and your code organized.  The commands used here are just the beginning.  In a future blog, I will guide us through the steps to using Git when working with others to ensure everyone working on the same project is on the same page at all times.  In the meantime, follow these steps, test them out on a couple of dummy repositories and take your time understanding how these commands work.  The better you know them, the easier maintaining all your future files will become.  Happy version controled coding! 
