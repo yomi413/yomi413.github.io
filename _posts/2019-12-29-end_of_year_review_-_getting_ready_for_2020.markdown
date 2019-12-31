@@ -33,7 +33,7 @@ I started my official job search in November 2019.  I haven’t been in the job 
 This year I wrote more than since my college days.  It’s taken me a while to warm up to the idea of writing technical blogs as a way to learn and focus on topics that were once unfamiliar.  I never thought I would say this, but I want to keep writing.  It’s become a good release of thoughts and ideas ruminating in my head.  In 2020, I will continue challenging my own notion of myself as a writer and will continue to learn through my writing.
 
 #  Welcoming 2020 With Open Arms
-![](https://i.imgur.com/9Dfpacf.gifv)
+![](https://i.imgur.com/9Dfpacf.gif)
 
 In 2020 I want to do more of all of the above and then some.  I want to do away with my fears and anxieties, and have a deeper focus and understanding of doing things to help me grow.  I want to work as a software developer and want to do work that matters.  I want to continue making connections and meeting cool and interesting people doing amazing things in tech.  I want to give more to my family while also focusing on myself.  I want to be healthy and welcome my 40th year of life with a big bang.  All things are possible as long as I stay committed to the process and to my journey.  Through the ups and downs that 2019 brought, I embraced all of it.  I survived.  My family thrived.  My coding skills grew.  2019 taught me that I am still capable of rolling with the punches.  I didn’t make it this far for nothing. I am ready for 2020 and the challenges that lie ahead.  Bring it on 2020 - I am ready!
 
