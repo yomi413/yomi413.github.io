@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Revisiting the FizzBuzz Test "
-date:       2020-01-20 04:24:42 +0000
+date:       2020-01-19 23:24:42 -0500
 permalink:  revisiting_the_fizzbuzz_test
 ---
 
 
 I first encountered the FizzBuzz test back in July 2017.  I remember having so much trouble with the lab that I wanted to document my observations about it.  Here are my notes in all their glory.  
 
-> ![](https://i.imgur.com/T9WoDWAm.png)               ![](https://i.imgur.com/seXsWPbm.png)
+> ![](https://i.imgur.com/T9WoDWAm.png)               ![](https://i.imgur.com/seXsWPb.png)
 
 I was really perplexed by the final solution back then.  Fast forward to January 2020 and here I am revisiting FizzBuzz.  As I’ve taken the month of January to review some of the major concepts of JavaScript and Ruby, I stumbled upon the FizzBuzz problem again and tried to make sense of the logic that correctly solves the problem.  
 
@@ -41,8 +41,8 @@ function fizzBuzz(num) {
 	}
 }
 
-fizzBuzz(6);    // *returns “Fizz”*
-fizzBuzz(7);    // *returns undefined*
+fizzBuzz(6);     // returns “Fizz”
+fizzBuzz(7);     // returns undefined
 
 ```
 
@@ -58,9 +58,9 @@ function fizzBuzz(num) {
 	}
 }
 
-fizzBuzz(21);    // *returns “Fizz”*
-fizzBuzz(25);    // *returns “Buzz”*
-fizzBuzz(15);    // *returns “Fizz”*
+fizzBuzz(21);     // returns “Fizz”
+fizzBuzz(25);     // returns “Buzz”
+fizzBuzz(15);     // returns “Fizz”
 
 ```
 
@@ -78,7 +78,7 @@ function fizzBuzz(num) {
 	}
 }
 
-fizzBuzz(15);    // *returns “Fizz”*
+fizzBuzz(15);     // returns “Fizz”
 
 ```
 
@@ -100,10 +100,10 @@ function fizzBuzz(num) {
 	}
 }
 
-fizzBuzz(15);   // *return “FizzBuzz”*
-fizzBuzz(27);   // *return “Fizz”*
-fizzBuzz(35);   // *return “Buzz”*
-fizzBuzz(90);   // *return “FizzBuzz”*
+fizzBuzz(15);     // return “FizzBuzz”
+fizzBuzz(27);     // return “Fizz”
+fizzBuzz(35);     // return “Buzz”
+fizzBuzz(90);     // return “FizzBuzz”
 
 ```
 
@@ -125,11 +125,11 @@ function fizzBuzz(num) {
 	}
 }
 
-fizzBuzz(15);   // *return “FizzBuzz”*
-fizzBuzz(27);   // *return “Fizz”*
-fizzBuzz(35);   // *return “Buzz”*
-fizzBuzz(90);   // *return “FizzBuzz”*
-fizzBuzz(34);    // *returns “34 is not a multiple of 3 or 5.”*
+fizzBuzz(15);     // return “FizzBuzz”
+fizzBuzz(27);     // return “Fizz”
+fizzBuzz(35);     // return “Buzz”
+fizzBuzz(90);     // return “FizzBuzz”
+fizzBuzz(34);     // returns “34 is not a multiple of 3 or 5.”
 
 ```
 
