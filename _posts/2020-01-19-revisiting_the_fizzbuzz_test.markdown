@@ -8,7 +8,76 @@ permalink:  revisiting_the_fizzbuzz_test
 
 I first encountered the FizzBuzz test back in July 2017.  I remember having so much trouble with the lab that I wanted to document my observations about it.  Here are my notes in all their glory.  
 
-> ![](https://i.imgur.com/T9WoDWAm.png)               ![](https://i.imgur.com/seXsWPb.png)
+> Fizzbuzz Lab
+> 
+> require_relative './spec_helper.rb'
+> 
+> describe "fizzbuzz" do
+>   it 'returns "Fizz" when the number is divisible by 3' do
+>     fizz_3 = fizzbuzz(3)
+> 
+>     expect(fizz_3).to eq("Fizz")
+>   end
+>   it 'returns "Buzz" when the number is divisible by 5' do
+>     fizz_5 = fizzbuzz(5)
+> 
+>     expect(fizz_5).to eq("Buzz")
+>   end
+>   it 'returns "FizzBuzz" when the number is divisible by 3 and 5' do
+>     fizz_15 = fizzbuzz(15)
+> 
+>     expect(fizz_15).to eq("FizzBuzz")
+>   end
+>   it 'returns nil when the number is not divisible by 3 or 5' do
+>     fizz_4 = fizzbuzz(4)
+> 
+>     expect(fizz_4).to eq(nil)
+>   end
+> end
+> 
+> I don't think anything is wrong with the fizzbuzz.rb file, but could there be something wrong with the other files necessary to run the program correctly?
+> 
+> 
+> Fizzbuzz Lab - Thoughts
+> 
+> I spent the last day and half trying to figure out how to solve the Fizzbuzz Lab.  Here are my thoughts:
+> 
+>  I thought I understood if/else statements and how to structure them.  
+> In the context of this particular lab, the solution was a bit confusing.  The test was structured in a particular way that leads you to believe that it should look like this:
+> 
+> 	Def fizzbuzz(num)
+> 		If num % 3 == 0
+> 			“Fizz”
+> 		Elsif num % 5 == 0
+> 			“Buzz”
+> 		Elsif (num % 3 == 0) && (num % 5 == 0)
+> 			“FizzBuzz”
+> 		Else
+> 			Nil
+> 		End
+> 	End
+> 
+> *Please note that the capital letters at the beginning at each line are explicitly put there by this document.  The way I input the information is all lowercase. 
+> 
+> Anyway, you would think that the solution above was pretty straight forward given the test that was written for it.  However, here is the correct solution that allowed all tests to pass:
+> 
+> def fizzbuzz(num)
+>   if (num % 3 == 0) && (num % 5 == 0)
+>     "FizzBuzz"
+>   elsif num % 3 == 0
+>     "Fizz"
+>   elsif num % 5 == 0
+>     "Buzz"
+>   else
+>     nil
+>   end
+> end
+> 
+> Now, why does the 3rd test have to be solved first?  What is the logic behind that?  Does it have to do with the complexity of each individual test?  What exactly is the expectation aside from the tests that we have to make pass?
+> 
+> I have to keep reading up on this phenomenon.  I also need to keep my eyes peeled for how to set up my solutions for the future. This is only getting more interesting.
+> 
+
 
 I was really perplexed by the final solution back then.  Fast forward to January 2020 and here I am revisiting FizzBuzz.  As I’ve taken the month of January to review some of the major concepts of JavaScript and Ruby, I stumbled upon the FizzBuzz problem again and tried to make sense of the logic that correctly solves the problem.  
 
