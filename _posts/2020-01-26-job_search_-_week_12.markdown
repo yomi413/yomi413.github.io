@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Job Search - Week 12"
-date:       2020-01-27 04:02:35 +0000
+date:       2020-01-26 23:02:37 -0500
 permalink:  job_search_-_week_12
 ---
 
@@ -24,3 +24,6 @@ Anyway, today they provided some much needed levity after a couple of weeks of b
 The fact of the matter is that I have a deep understanding of the good and the bad of the process of searching for a job.  But I am determined to focus on the good.  So far I have connected with some amazing people, and I have pushed myself to new limits to ensure that I continue to grow out of this experience.  The most important thing that I have done in recent weeks is keep learning and building upon my skills.
 
 And that, my friends, is the key.  You have to continue improving upon your process and your skills.  I know this is not new information.  I could easily spend all day writing about all the negative aspects of the job search, but it's not helpful to me and does not allow for growth and learning.  I’ve [previously expressed](http://yescano.com/job_search_-_week_4_learning_to_not_let_rejection_get_me_down) how exhausting it all is and how vulnerable we become through this process, but I want to focus on all that I’ve gained instead of what I don’t have.  To bring it full circle you have to keep trying, keep pushing, and don’t give up.  The lows have the potential to really bring us down, but I’m in this to enjoy the fruits of my labor.
+
+
+***Update*** - Today has been an overall rough day.  As everyone else I've been following the news of the death of Kobe Bryant and the 8 other passengers, including his 13-year-old daughter, in a helicopter crash.  I am devastated.  Writing this blog in the midst of the overwhelming sadness I felt helped to put things in perspective.  Life is short.  Love what you do and do what you love.  Kobe was a talented individual, but he was a true example of hard work, perseverance, determination and drive.  I hope his family finds comfort in each other and in their community.  May he and all of those lost today rest in peace.
