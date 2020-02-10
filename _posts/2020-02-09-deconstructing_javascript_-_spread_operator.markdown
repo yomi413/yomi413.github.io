@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Deconstructing JavaScript - Spread Operator"
-date:       2020-02-10 04:31:28 +0000
+date:       2020-02-09 23:31:29 -0500
 permalink:  deconstructing_javascript_-_spread_operator
 ---
 
