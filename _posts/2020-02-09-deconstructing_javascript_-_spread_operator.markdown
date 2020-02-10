@@ -104,11 +104,15 @@ console.log(...str)     // prints T o m o r r o w
 
 You can also put each character from the string into an array. 
 
-```console.log([...str])     // prints [“T”, “o”, “m”, “o”, “r”, “r”, “o”, “w”]```
+```
+console.log([...str])     // prints [“T”, “o”, “m”, “o”, “r”, “r”, “o”, “w”]
+```
 
 However, attempting to copy the string won’t work the same way as with arrays.  If you put quotes around the spread string, you will get the literal representation of anything inside the quotes. 
 
-```console.log(“...str”)     // prints ...str```
+```
+console.log(“...str”)     // prints ...str
+```
 
 **Spread operator and objects**
 
@@ -125,14 +129,17 @@ console.log(obj2)     // prints {firstName: “Sam”, lastName: “Oh”}
 
 What if we try to spread the original object without object literals?
 
-```console.log(...obj1)     // Uncaught TypeError: Found non-callable @@iterator```
+```
+console.log(...obj1)     // Uncaught TypeError: Found non-callable @@iterator
+```
 
 What if we add array literals to the spread object?
 
-```console.log([...obj1])     // Uncaught TypeError: obj1 is not iterable```
+```
+console.log([...obj1])     // Uncaught TypeError: obj1 is not iterable
+```
 
 So to recap, you can’t spread the object without the object literal, and you can’t create an array of the spread object.  Why?  The MDN documentation explains this perfectly: 
-
 > Objects themselves are not iterable, but they become iterable when used in an Array, or with iterating functions such as `map()`, `reduce()`, and `assign()`. 
 
 Because objects are not iterable there are no elements from the object to spread.  Once again, you have to be mindful of how you want to use the spread operator and understand the consequences that follow.
