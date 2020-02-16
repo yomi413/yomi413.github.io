@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Git Guide - Workflow Instructions"
-date:       2020-02-16 23:40:02 +0000
+date:       2020-02-16 18:40:03 -0500
 permalink:  my_git_guide_-_workflow_instructions
 ---
 
@@ -21,6 +21,7 @@ As my Moms Can Code School cohort starts to wind down and we continue working on
 Without further ado, see the workflow instructions that could potentially save you some major headaches.
 
 ## Initial setup
+
 1. Fork `<project>` repository to your GitHub account.
 2. In the terminal, `cd` to the directory you want the new project folder to be in.
 3. Clone your forked repository inside this directory by running `git clone git@github.com:<your git profile/project>.git`.
@@ -30,6 +31,7 @@ Without further ado, see the workflow instructions that could potentially save y
 Only run this initial setup once. These steps do not repeat.
 
 ## Working in a branch 
+
 1. Run `git checkout -b <branch name>` to create a new development branch . This command also switches to the newly created branch.
 2. Add some code.  Run `git status`.  Use `git status` often to know which files need to be added and committed to the code base.  You should see the following message:
 
@@ -52,6 +54,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 Repeat these steps as necessary.
 
 ## Keeping your fork in sync with original repo
+
 1. Before you make any further changes, switch to your local master branch by running `git checkout master`.
 2. To sync your master branch with the original master branch run `git pull upstream master`. (**NOTE**: Your master branch should always match the original master. All your branches should start from your master branch.)
 3. Once your master branch is in sync with the remote original master, run `git push origin master` to make sure your remote GitHub repository is updated.
