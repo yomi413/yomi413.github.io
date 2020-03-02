@@ -1,0 +1,16 @@
+---
+layout: post
+title:      "The Importance of Collaboration"
+date:       2020-03-02 03:35:14 +0000
+permalink:  the_importance_of_collaboration
+---
+
+
+The completion of any major project is exciting, but also bittersweet, especially when working with a team.  During the project you want to get the project done because it’s exhausting and you want to move on from it.  You’re firing on all cylinders working like a mad person to make sure that all of the requirements of the project are being fulfilled, that the team is working well together and that we put something useful, beautiful and fantastic out into the world.  While the project itself is important and it’s what we need to focus on, we don’t give enough thought or credit to the team and what a team has to go through to get a project from point A to point B.   
+
+Having completed the latest cohort of Moms Can Code School allowed me to explore new and different ways of working with others.  What started out as something that would help keep up my technical skills and provide a way to network and meet new people, became so much more.  By getting real-world, hands-on experience and being exposed to another side of technical work, I came away with a different sense of the possibilities of what a job in tech can be.  However, one of the most important things I came away with was a better understanding of working with people, especially when the team is located in different locations.  I had never experienced working remotely with others, and learning to use tools such as Zoom for nightly meetings, Slack for daily communications, Trello for live-action and interactive to-do lists, and Git and GitHub for collaborative version control, we didn't even realize that we had an upper hand with so many different tools available to us.  
+
+Technology is made for collaboration.  Every single tool you encounter, every platform we used during our project is built with collaboration in mind.  Even parts of the project that started out as individual sub-projects (such as my use of Firebase to build our databases), are built for use by teams.  The point is that in order to get the most out of team work, you have to know how the technology you will use will allow you to collaborate in an open and dynamic way.  
+
+In the process of completing our final project for Moms Can Code School, cohort 5 learned a really important lesson - in supporting each other and becoming our own little technical village, we created a space for ourselves that proves that women can create awesome things, moms are powerful in their own way and diversity is essential to growing in tech.  Through collaboration you should learn a lot about yourself, but you should also be learning great things from the people you work with.  In the course of project work, there is so much time and energy that goes into the project itself, but we don’t stop to think about the people that comprise the team that will eventually get the work done.  To collaborate with others is to be a student and a teacher at the same time, to nurture growth and understanding, and to feel that you are part of something bigger than yourself.  I wish I had collaborated with others much sooner in my coding journey. 
+
