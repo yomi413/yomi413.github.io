@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Coding Challenge - sumDigits()"
-date:       2020-03-09 03:39:38 +0000
+date:       2020-03-08 23:39:39 -0400
 permalink:  coding_challenge_-_sumdigits
 ---
 
@@ -12,13 +12,13 @@ Problem solving is not so much about solving the actual problem as much as it is
 
 I encountered this problem on [CodeWars.](https://www.codewars.com/dashboard)
 
-*Write a function named sumDigits which takes a number as input and returns the sum of the absolute value of each of the number's decimal digits. For example:
+*Write a function named sumDigits which takes a number as input and returns the sum of the absolute value of each of the number's decimal digits. For example:*
 
     sumDigits(10);     // Returns 1
     sumDigits(99);     // Returns 18
     sumDigits(-32);     // Returns 5
 		 
-Let's assume that all numbers in the input will be integer values.*
+*Let's assume that all numbers in the input will be integer values.*
 
 
 I decided to use a technique that my kids have been using in school and that I’m sure I learned years ago in elementary school.  Before we write any code let’s decode the problem at hand.  Let’s read through the problem, and underline or highlight clues that can help us  come up with a solution.
@@ -46,7 +46,7 @@ And now the real fun begins.  Let’s go back to the original problem.  Now that
 Let’s start by declaring the function as described in the problem.  
 ```
 function sumDigits(number) {
-	// return sum
+  // return sum
 }
 ```
 
@@ -65,9 +65,8 @@ Before we do anything else let’s make absolutely certain that all the numbers 
 Let’s add some code to the function to make sure all numbers passed in are positive.
 ```
 function sumDigits(number) {
-    const absoluteNum = Math.abs(number)
-	
-	console.log(absoluteNum)
+  const absoluteNum = Math.abs(number)
+  console.log(absoluteNum)
   // return sum
 }
 
@@ -81,10 +80,10 @@ Okay, cool!  It worked.  Now that we’re dealing with only positive numbers it 
 The next step is to separate the number into separate digits that could be added.  In fact, this next step requires two distinct steps that will be happening at the same time by chaining methods together.  First, we have to convert the number into a string by using the `toString()` method.  Second, we have to split the string into an array using the `split()` method.  That would look as follows:
 ```
 function sumDigits(number) {
-	  const absoluteNum = Math.abs(number)
-	  const digitsArr = absoluteNum.toString().split(‘’)
-	  console.log(digitsArr)
-    // return sum
+  const absoluteNum = Math.abs(number);
+  const digitsArr = absoluteNum.toString().split(‘’);
+  console.log(digitsArr);
+  // return sum
 }
 
 sumDigits(-99);	     // prints [“9”, “9”]
@@ -97,9 +96,9 @@ Notice how all of the methods we’ve implemented are reflected in the last prin
 Finally, we know that we have to come up with the sum of the digits in the array.  One way to do it is initializing a `sum` variable and assign it to a value of 0.  By having this variable declared you can now use it in your final solution and you can return that sum.
 ```
 function sumDigits(number) {
-	const absoluteNum = Math.abs(number);
-	const digitsArr = absoluteNum.toString().split(‘’);
-	let sum = 0;
+  const absoluteNum = Math.abs(number);
+  const digitsArr = absoluteNum.toString().split(‘’);
+  let sum = 0;
 	
   return sum;
 }
@@ -111,15 +110,15 @@ Right now, because the `sum` variable has been assigned a value of 0, when you r
 The final step is iterating through digitsArr to get the sum total of the digits that make up the passed in number.  For this I decided to use the `map()` method as the iterator.   What does the the `map()` method give us?
 ```
 function sumDigits(number) {
-	  const absoluteNum = Math.abs(number);
-	  const digitsArr = absoluteNum.toString().split(‘’);
-	  let sum = 0;
+  const absoluteNum = Math.abs(number);
+  const digitsArr = absoluteNum.toString().split(‘’);
+  let sum = 0;
 
-	  digitsArr.map(num => {
-		  console.log(num)
-	  })
+  digitsArr.map(num => {
+	  console.log(num)
+  })
 	
-    return sum;
+  return sum;
 }
 
 sumDigits(34);     // prints 3 4
@@ -128,13 +127,13 @@ sumDigits(34);     // prints 3 4
 Running this function prints each digit separately.  Now we can use the `sum` variable to add each of those numbers to the sum. 
 ```
 function sumDigits(number) {
-	const absoluteNum = Math.abs(number);
-	const digitsArr = absoluteNum.toString().split(‘’);
-	let sum = 0;
+  const absoluteNum = Math.abs(number);
+  const digitsArr = absoluteNum.toString().split(‘’);
+  let sum = 0;
 
-	digitsArr.map(num => {
-		sum += num
-	})
+  digitsArr.map(num => {
+    sum += num
+  })
 	
   return sum;
 }
@@ -148,13 +147,13 @@ Clearly adding the num variable to the `sum` isn’t working the way we expected
 So what can we do to change this?  We must use the `parseInt()` method in order to convert the `num` variable from a string to an integer.  Once we do that, our `sum` will be returned as a proper integer.  
 ```
 function sumDigits(number) {
-	  const absoluteNum = Math.abs(number);
-	  const digitsArr = absoluteNum.toString().split(‘’);
-	  let sum = 0;
+  const absoluteNum = Math.abs(number);
+  const digitsArr = absoluteNum.toString().split(‘’);
+  let sum = 0;
 
-	  digitsArr.map(num => {
-		  sum += parseInt(num)
-	  })
+  digitsArr.map(num => {
+    sum += parseInt(num)
+  })
 	
   return sum;
 }
