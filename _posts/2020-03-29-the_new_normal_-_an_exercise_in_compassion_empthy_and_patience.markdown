@@ -1,0 +1,20 @@
+---
+layout: post
+title:      "The New Normal - An Exercise in Compassion, Empthy and Patience"
+date:       2020-03-30 02:43:36 +0000
+permalink:  the_new_normal_-_an_exercise_in_compassion_empthy_and_patience
+---
+
+
+As we come to grips with the reality of a COVID-19 world, life as we know it will never be the same.  This week my kids started learning remotely.  It has been weird to wake up in the morning, have them get ready to start their day, only to get in house clothes, so that they can travel to their desks in their respective bedrooms to work on computers for most of the day.  The first couple of days were an adjustment, but towards the end of the week we were getting settled into this new way of doing school.  I know that as time passes more changes will come and adjustments will have to be made.  This whole process needs to remain fluid as we continue to accommodate the constant changes. 
+
+Sitting down with my kids at any given point during the day to work on projects, answer their questions, looking through Google classroom to understand the work and being able to communicate with their teachers, made me think about how we are all trying to understand how to navigate the current situation.  We have to think about the children who have never seen, let alone used a computer.  While my kids have technology at school and we’ve always had computers at home, that is not the case for a lot of households.  *But what about kids that have phones?*  Technology should not solely be measured by a person's basic knowledge of a smartphone.  These kids are seriously lacking in simple computer literacy, from simple typing skills to being able to navigate websites. 
+
+We should also take parents into account.  A lot of parents have to face working from home for the first time in their careers.  They may not know how to manage their time in order to be productive.  Additionally, parents not only have to make sense of doing their own work, but now they must serve as surrogate teachers, ensuring to take the time to sit with their kids and make sense of their classwork/homework for the day.  Parents were exhausted before.  Now they’re exhausted and frustrated and every other feeling in between.  
+
+Finally, think about the teachers sitting in front of their devices fielding questions from afar without the benefit of seeing their students.  How will teachers be able to evaluate their students for the remainder of the year?  How will they continue to connect with their students, especially those that require more of their time and attention?  Let’s add to that the fact that there are a lot of teachers that are parents.  They also have to take the time to ensure that their own kids are doing school work at the same time that they are fulfilling their duties as teachers.  
+
+All of these sudden changes in how we operate breeds frustration, and understandably so.  People tend to want to find a scapegoat to blame for what they're going through and their current situation, but who do you blame at a time when we are dealing with something that we can’t see?  It is much easier to want to fight other people because we can see them.  However, I think we need to resist the urge to want to find an enemy in fellow humans.  In a situation where the entire world has had to quarantine themselves and follow new guidelines for social interactions, what we need to be doing is showing more empathy and compassion toward everyone.  If we truly are in this together, we can’t be too quick to jump down a person’s throat just because things aren’t going our way.  
+
+So please, when you feel that frustration creeping up, take a step back and try to put yourself in another person’s shoes.  Try to see things from their point of view.  Absolutely no one expected any of this to happen.  We must all admit to ourselves that we are all making it up as we go along, and it's ok to not have everything figured out right away.  All we can do now is love and care for one another as we all learn how to navigate the new normal.  
+
