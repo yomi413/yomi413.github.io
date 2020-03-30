@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "The New Normal - An Exercise in Compassion, Empthy and Patience"
-date:       2020-03-30 02:43:36 +0000
+title:      "The New Normal - An Exercise in Compassion, Empathy and Patience"
+date:       2020-03-29 22:43:36 -0400
 permalink:  the_new_normal_-_an_exercise_in_compassion_empthy_and_patience
 ---
 
