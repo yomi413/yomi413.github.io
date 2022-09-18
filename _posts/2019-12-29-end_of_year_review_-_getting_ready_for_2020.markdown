@@ -17,8 +17,6 @@ I can’t believe how fast 2019 came and went.  I can only hope that 2020 slows 
 
 # It’s My Graduation...Hooray!!!
 
-![](https://i.imgur.com/lSPUqkc.png?1)
-
 In August, I passed my final project for Flatiron School’s online software engineer program and officially graduated in September!!!  For me, it was a big deal.  When I started back in July 2017 I thought I would get through the full course in 6 months.  I don’t know what I was thinking.  But that’s in the past.  I did it, and that’s what matters!
 
 # The Art of Networking
